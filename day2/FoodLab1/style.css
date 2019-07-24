@@ -1,0 +1,33 @@
+
+h1
+{
+  color: blue;
+  font-family:courier;
+  font-size: 40px;
+}
+h2
+{
+  color:red;
+  font-family:courier;
+  font-size: 40px;
+}
+h3
+{
+  color:yellow;
+  font-family:courier;
+  font-size: 40px;
+}
+h4
+{
+  color:orange;
+  font-family:courier;
+  font-size: 40px;
+}
+u1
+{list-style-type: cirsle;
+}
+img
+{
+  width:4px;
+  hieght:4px;
+}

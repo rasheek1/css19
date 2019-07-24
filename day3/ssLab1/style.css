@@ -1,0 +1,38 @@
+blog-pics {
+  height: auto;
+  width: 250px;
+}
+
+body {
+  background-color: #ff0087;
+  font-family: Helvetica, sans-serif;
+  width: 75%;
+  margin: auto;
+}
+
+#fauna-title,
+#flora-title {
+  color: darkgrey;
+}
+
+h1 {
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  padding: 2% 5%;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+section {
+  background-color: white;
+  border: 1px solid lightgrey;
+  line-height: 150%;
+  margin-bottom: 10px;
+  padding: 2% 5%;
+}
