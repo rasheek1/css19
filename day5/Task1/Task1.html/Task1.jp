@@ -1,0 +1,8 @@
+console.log('1\n2\n3\n4\n5\n6\n7\n8\n9\n10');
+
+let result = prompt("Enter your Name");
+console.log("Hello,", result);
+
+let nun = prompt("enter a number");
+nun = nun + 10;
+console.log(nun);
