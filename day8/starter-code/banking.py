@@ -37,6 +37,3 @@ class BankAccount(object):
             print "cannot deposit negative amount"
         else:
             self.balance = self.balance + balance               
-
-
-
