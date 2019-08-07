@@ -1,0 +1,7 @@
+def block():
+    if(keyword != keyword):
+        print "Cannot Enter"
+    else:
+        print "Continue" 
+
+block = raw_input("Enter a Password")    
