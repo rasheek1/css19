@@ -12,13 +12,12 @@ the_jinja_env = jinja2.Environment(
 
 class MainPage(webapp2.RequestHandler):
     def get(self):
-        t = the_jinja_env.get_template('templates/welcome.html')
-        self.response.write (t.render())
+        L = the_jinja_env.get_template('templates/welcome.html')
+        self.response.write (t.rounder())
        
 class AboutPage(webapp2.RequestHandler):
     def get(self):
-        t = the_jinja_env.get_template('templates/welcome.html')
-        self.response.write (t.render())
+        self.response.write ('<h1>Hello, Sheekie!</h1>')
 
 class NewsPage(webapp2.RequestHandler):
     def get(self):
@@ -26,7 +25,7 @@ class NewsPage(webapp2.RequestHandler):
 
 class ResultPage(webapp2.RequestHandler):
     def get(self):
-        self.response.write ('<h3>result</h3>')    
+        self.response.write ('<h3></h3>')    
 
 
 routes = [('/', MainPage),
